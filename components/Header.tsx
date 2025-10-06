@@ -9,6 +9,7 @@ import { Authenticated, AuthLoading, Unauthenticated } from "convex/react";
 //import { ThemeToggle } from "./ThemeToggle";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import { ThemeToggle } from "./ThemeToggle";
 
 function Header() {
   const pathname = usePathname();
@@ -42,7 +43,7 @@ function Header() {
             </Button>
           </Link>
 
-          {/*<ThemeToggle />*/}
+          <ThemeToggle />
 
           <AuthLoading>
             <Button variant="outline">
