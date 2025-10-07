@@ -14,9 +14,8 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { Plus, BarChart3, FileText, Sparkles, Loader2 } from "lucide-react";
 //import ReportsTable from "@/components/ReportsTable";
-//import { CountrySelector } from "@/components/ui/country-selector";
-import { Authenticated, AuthLoading } from "convex/react";
 import { CountrySelector } from "@/components/ui/country-selector";
+import { Authenticated, AuthLoading } from "convex/react";
 import ReportsTable from "@/components/ReportsTable";
 
 function Dashboard() {
