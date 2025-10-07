@@ -2,7 +2,7 @@
 
 import startScraping from "@/actions/startScraping";
 import { Button } from "@/components/ui/button";
-//import { Input } from "@/components/ui/input";
+import { Input } from "@/components/ui/input";
 import {
   Card,
   CardContent,
@@ -13,9 +13,11 @@ import {
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { Plus, BarChart3, FileText, Sparkles, Loader2 } from "lucide-react";
-import ReportsTable from "@/components/ReportsTable";
-import { CountrySelector } from "@/components/ui/country-selector";
+//import ReportsTable from "@/components/ReportsTable";
+//import { CountrySelector } from "@/components/ui/country-selector";
 import { Authenticated, AuthLoading } from "convex/react";
+import { CountrySelector } from "@/components/ui/country-selector";
+import ReportsTable from "@/components/ReportsTable";
 
 function Dashboard() {
   const [prompt, setPrompt] = useState("");
